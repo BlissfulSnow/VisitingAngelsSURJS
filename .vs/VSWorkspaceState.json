@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\visitingangelsrjs",
+    "\\visitingangelsrjs\\src",
     "\\visitingangelsrjs\\src\\pages",
-    "\\visitingangelsrjs\\src\\pages\\Auth",
     "\\visitingangelsrjs\\src\\pages\\FirstLogin",
     "\\visitingangelsrjs\\src\\pages\\Scheduler",
     "\\visitingangelsrjs\\src\\pages\\Scheduler\\Components",
-    "\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login",
-    "\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Navbar"
+    "\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader",
+    "\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Profile",
+    "\\visitingangelsrjs\\src\\pages\\Scheduler\\Home"
   ],
-  "SelectedNode": "\\visitingangelsrjs\\package.json",
+  "SelectedNode": "\\visitingangelsrjs\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }

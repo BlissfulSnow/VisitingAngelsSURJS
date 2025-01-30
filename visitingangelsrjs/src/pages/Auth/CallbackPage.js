@@ -1,11 +1,13 @@
-import React from "react";
+import { useAuth0 } from "@auth0/auth0-react";
 
-export const CallbackPage = () => {
-    return (
-        <div className="page-layout">
-            <div className="page-layout__content" />
-        </div>
-    );
-};
+// moved to home.js 
+function CallbackPage() {
+    const { isLoading, error } = useAuth0();
+
+    if (isLoading) return <div>Loading...</div>;
+    if (error) return <div>Error: {error.message}</div>;
+
+    return <div>Successfully authenticated!</div>;
+}
 
 export default CallbackPage;

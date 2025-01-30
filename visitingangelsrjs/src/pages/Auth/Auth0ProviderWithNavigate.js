@@ -2,6 +2,8 @@ import { Auth0Provider } from "@auth0/auth0-react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+// tried using from a auth0 doc but this code was not working (dont think we need it with "navigate" anyways)
+
 export const Auth0ProviderWithNavigate = ({ children }) => {
   const navigate = useNavigate();
     

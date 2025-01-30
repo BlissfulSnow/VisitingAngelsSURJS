@@ -9,11 +9,9 @@
 
 
 import React from "react";
-import ReactDOM from "react-dom";
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-import Auth0ProviderWithNavigate from "./pages/Auth/Auth0ProviderWithNavigate";
+// import Auth0ProviderWithNavigate from "./pages/Auth/Auth0ProviderWithNavigate";
 
 import { Auth0Provider } from "@auth0/auth0-react";
 
@@ -21,11 +19,11 @@ import { Auth0Provider } from "@auth0/auth0-react";
 
 const domain = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
-// const redirectUri = process.env.REACT_APP_AUTH0_CALLBACK_URL;
+const redirectUri = process.env.REACT_APP_AUTH0_CALLBACK_URL;
 
 console.log("Auth0 Domain:", process.env.REACT_APP_AUTH0_DOMAIN);
 console.log("Auth0 Client ID:", process.env.REACT_APP_AUTH0_CLIENT_ID);
-console.log("Auth0 Redirect URI:", process.env.REACT_APP_AUTH0_CALLBACK_URL);
+console.Log("Auth0 callback:", redirectUri);
 
 
 const root = createRoot(document.getElementById('root'));
@@ -35,7 +33,7 @@ root.render(
         domain={ domain }
         clientId={ clientId }
         authorizationParams={{
-            redirect_uri: "http://localhost:3000/scheduler"
+            redirect_uri: redirectUri
         }}
     >
         <App />

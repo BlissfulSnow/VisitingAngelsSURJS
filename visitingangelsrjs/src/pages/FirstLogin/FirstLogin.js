@@ -6,7 +6,10 @@
 */
 import React from "react";
 import './FirstLogin.css';
-import LoginButton from '../Scheduler/Components/Login/loginbutton';
+import LoginButton from '../Scheduler/Components/Login/LoginButton';
+import LogoutButton from '../Scheduler/Components/Login/LogoutButton';
+import Profile from '../Scheduler/Components/Profile/Profile';
+import SignUpButton from "../Scheduler/Components/Login/SignUpButton";
 
 
 const LoginPage = () => {
@@ -14,6 +17,10 @@ const LoginPage = () => {
         <div className="first-login-page-container">
             <h2 className="first-login-page-title">Login</h2>
             <LoginButton />
+            <LogoutButton />
+            <SignUpButton />
+            <Profile />
+            
         </div>
     );
 };
