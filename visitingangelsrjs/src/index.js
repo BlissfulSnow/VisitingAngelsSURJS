@@ -23,7 +23,7 @@ const redirectUri = process.env.REACT_APP_AUTH0_CALLBACK_URL;
 
 console.log("Auth0 Domain:", process.env.REACT_APP_AUTH0_DOMAIN);
 console.log("Auth0 Client ID:", process.env.REACT_APP_AUTH0_CLIENT_ID);
-console.Log("Auth0 callback:", redirectUri);
+console.log("Auth0 callback:", redirectUri);
 
 
 const root = createRoot(document.getElementById('root'));

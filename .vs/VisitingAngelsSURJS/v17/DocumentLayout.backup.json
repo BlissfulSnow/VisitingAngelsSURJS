@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Profile\\Profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Profile\\Profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\FirstLogin\\FirstLogin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\FirstLogin\\FirstLogin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\Auth0ProviderWithNavigate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -39,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\SignUpButton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Profile\\Profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Profile\\Profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\FirstLogin\\FirstLogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\FirstLogin\\FirstLogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -51,12 +67,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\LogoutButton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\loginbutton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\loginbutton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\LoginButton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\LoginButton.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\server\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -86,24 +98,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthenticationGuard.js",
-              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js",
-              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js",
-              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js",
-              "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-30T02:08:19.761Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\.gitignore",
+              "RelativeDocumentMoniker": "visitingangelsrjs\\.gitignore",
+              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\.gitignore",
+              "RelativeToolTip": "visitingangelsrjs\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T02:50:11.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\package-lock.json",
+              "RelativeDocumentMoniker": "visitingangelsrjs\\package-lock.json",
+              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\package-lock.json",
+              "RelativeToolTip": "visitingangelsrjs\\package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-30T02:50:10.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenticationGuard.js",
+              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js",
+              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js",
+              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js",
+              "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Auth\\AuthenticationGuard.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-30T02:41:20.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\App.css",
+              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\App.css",
+              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\App.css",
+              "RelativeToolTip": "visitingangelsrjs\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-30T02:38:43.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "PageLoader.css",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.css",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.css",
@@ -116,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "PageLoader.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.js",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader\\PageLoader.js",
@@ -129,33 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Auth0ProviderWithNavigate.js",
-              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\Auth0ProviderWithNavigate.js",
-              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Auth\\Auth0ProviderWithNavigate.js",
-              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\Auth0ProviderWithNavigate.js",
-              "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Auth\\Auth0ProviderWithNavigate.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-30T01:46:01.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SignUpButton.js",
-              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\SignUpButton.js",
-              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\SignUpButton.js",
-              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\SignUpButton.js",
-              "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\SignUpButton.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-30T01:19:50.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Profile.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Profile\\Profile.js",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Profile\\Profile.js",
@@ -168,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "LogoutButton.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\LogoutButton.js",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\LogoutButton.js",
@@ -176,25 +201,24 @@
               "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\LogoutButton.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-30T00:36:18.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T00:36:18.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "App.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\App.js",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\App.js",
               "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\App.js",
               "RelativeToolTip": "visitingangelsrjs\\src\\App.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-01-30T00:16:38.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "FirstLogin.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\FirstLogin\\FirstLogin.js",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\FirstLogin\\FirstLogin.js",
@@ -207,7 +231,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\index.js",
+              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\index.js",
+              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\index.js",
+              "RelativeToolTip": "visitingangelsrjs\\src\\index.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-23T02:30:55.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Auth0ProviderWithNavigate.js",
+              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\Auth0ProviderWithNavigate.js",
+              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Auth\\Auth0ProviderWithNavigate.js",
+              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\Auth0ProviderWithNavigate.js",
+              "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Auth\\Auth0ProviderWithNavigate.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-30T01:46:01.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.js",
+              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js",
+              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js",
+              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js",
+              "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-30T00:46:34.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignUpButton.js",
+              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\SignUpButton.js",
+              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\SignUpButton.js",
+              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\SignUpButton.js",
+              "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\SignUpButton.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-30T01:19:50.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CallbackPage.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Auth\\CallbackPage.js",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Auth\\CallbackPage.js",
@@ -215,25 +289,11 @@
               "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Auth\\CallbackPage.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-23T06:10:06.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T06:10:06.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\index.js",
-              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\index.js",
-              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\index.js",
-              "RelativeToolTip": "visitingangelsrjs\\src\\index.js",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-23T02:30:55.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "FirstLogin.css",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\FirstLogin\\FirstLogin.css",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\FirstLogin\\FirstLogin.css",
@@ -241,12 +301,11 @@
               "RelativeToolTip": "visitingangelsrjs\\src\\pages\\FirstLogin\\FirstLogin.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-23T01:21:28.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T01:21:28.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "LoginButton.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\LoginButton.js",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\LoginButton.js",
@@ -254,25 +313,11 @@
               "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Login\\LoginButton.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-23T06:22:20.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T06:22:20.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Home.js",
-              "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js",
-              "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js",
-              "ToolTip": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js",
-              "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Scheduler\\Home\\Home.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-30T00:46:34.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "server.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\server\\server.js",
               "RelativeDocumentMoniker": "server\\server.js",
@@ -280,12 +325,11 @@
               "RelativeToolTip": "server\\server.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-23T01:22:05.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T01:22:05.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "LoadData.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\visitingangelsrjs\\src\\pages\\Scheduler\\LoadData\\LoadData.js",
               "RelativeDocumentMoniker": "visitingangelsrjs\\src\\pages\\Scheduler\\LoadData\\LoadData.js",
@@ -293,12 +337,11 @@
               "RelativeToolTip": "visitingangelsrjs\\src\\pages\\Scheduler\\LoadData\\LoadData.js",
               "ViewState": "AgIAAGUAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-23T02:11:29.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T02:11:29.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "csvRoutes.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\server\\routes\\csvRoutes.js",
               "RelativeDocumentMoniker": "server\\routes\\csvRoutes.js",
@@ -306,12 +349,11 @@
               "RelativeToolTip": "server\\routes\\csvRoutes.js",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-23T01:34:50.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T01:34:50.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "app.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\server\\app.js",
               "RelativeDocumentMoniker": "server\\app.js",
@@ -319,12 +361,11 @@
               "RelativeToolTip": "server\\app.js",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-23T01:22:17.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T01:22:17.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "csvController.js",
               "DocumentMoniker": "C:\\Users\\alvar\\OneDrive\\Desktop\\Projects\\VisitingAngelsSURJS\\server\\controllers\\csvController.js",
               "RelativeDocumentMoniker": "server\\controllers\\csvController.js",
@@ -332,8 +373,7 @@
               "RelativeToolTip": "server\\controllers\\csvController.js",
               "ViewState": "AgIAAA8AAAAAAAAAAAAUwCwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-23T01:35:24.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T01:35:24.302Z"
             }
           ]
         }

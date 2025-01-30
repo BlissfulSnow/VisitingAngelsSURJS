@@ -4,13 +4,13 @@
     "\\visitingangelsrjs",
     "\\visitingangelsrjs\\src",
     "\\visitingangelsrjs\\src\\pages",
-    "\\visitingangelsrjs\\src\\pages\\FirstLogin",
+    "\\visitingangelsrjs\\src\\pages\\Auth",
     "\\visitingangelsrjs\\src\\pages\\Scheduler",
     "\\visitingangelsrjs\\src\\pages\\Scheduler\\Components",
     "\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\PageLoader",
     "\\visitingangelsrjs\\src\\pages\\Scheduler\\Components\\Profile",
     "\\visitingangelsrjs\\src\\pages\\Scheduler\\Home"
   ],
-  "SelectedNode": "\\visitingangelsrjs\\src\\App.js",
+  "SelectedNode": "\\visitingangelsrjs\\src\\index.js",
   "PreviewInSolutionExplorer": false
 }
