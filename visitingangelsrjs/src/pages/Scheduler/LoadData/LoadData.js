@@ -9,12 +9,12 @@ This component is exported for use in App.js, where it’s assigned to the /load
 import React from 'react';
 
 function LoadData() {
-  return (
-    <div>
-      <h1>Load Data</h1>
-      <p>Welcome to the Load Data page.</p>
-    </div>
-  );
+	return (
+		<div>
+			<h1>Load Data</h1>
+			<p>Welcome to the Load Data page.</p>
+		</div>
+	);
 }
 
 export default LoadData;

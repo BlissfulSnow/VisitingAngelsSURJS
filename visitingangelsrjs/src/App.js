@@ -9,7 +9,7 @@ This setup provides a structured and user-friendly navigation flow across the ap
 
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Navbar from './pages/Scheduler/Components/Navbar/Navbar';
 import Home from './pages/Scheduler/Home/Home';
 import FindCaregiver from './pages/Scheduler/FindCaregiver/FindCaregiver';
@@ -20,31 +20,30 @@ import Login from './pages/FirstLogin/FirstLogin';
 import Profile from "./pages/Profile/Profile";
 
 function App() {
-  return (
-    <Router>
-      {/* Conditionally render the Navbar only for routes other than "/login" */}
-      <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route
-          path="*"
-          element={
-            <>
-              <Navbar />
-              <Routes>
-                <Route path="/scheduler" element={<Home />} />
-                <Route path="/scheduler/find-caregiver" element={<FindCaregiver />} />
-                <Route path="/scheduler/loaddata" element={<LoadData />} />
-                <Route path="/scheduler/availability" element={<Availability />} />
-                <Route path="/scheduler/profile" element={<Profile />} />
-
-                <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
-              </Routes>
-            </>
-          }
-        />
-      </Routes>
-    </Router>
-  );
+	return (
+		<Router>
+			{/* Conditionally render the Navbar only for routes other than "/login" */}
+			<Routes>
+				<Route path="/login" element={<Login/>}/>
+				<Route
+					path="*"
+					element={
+						<>
+							<Navbar/>
+							<Routes>
+								<Route path="/scheduler" element={<Home/>}/>
+								<Route path="/scheduler/find-caregiver" element={<FindCaregiver/>}/>
+								<Route path="/scheduler/loaddata" element={<LoadData/>}/>
+								<Route path="/scheduler/availability" element={<Availability/>}/>
+								<Route path="/scheduler/profile" element={<Profile/>}/>
+								<Route path="*" element={<NotFound/>}/> {/* Catch-all route */}
+							</Routes>
+						</>
+					}
+				/>
+			</Routes>
+		</Router>
+	);
 }
 
 export default App;
