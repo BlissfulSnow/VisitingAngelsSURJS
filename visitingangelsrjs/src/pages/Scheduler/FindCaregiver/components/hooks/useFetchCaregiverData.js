@@ -36,8 +36,10 @@ export default function useFetchCaregiverData() {
             const schedule = Object.entries(details)
               .filter(([key, value]) => key.includes('/') && value) 
               .reduce((acc, [date, hours]) => ({ ...acc, [date]: hours }), {});
+
+            const availability = details['Availability'] || null;
           
-            return { name, schedule };
+            return { name, schedule, availability };
           });
           
 

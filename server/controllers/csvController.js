@@ -4,7 +4,7 @@
  * CSV Controller
  * Handles the upload and processing of CSV files and provides access to the stored data.
  */
-
+const { pool } = require('../db/connection');
 const csvParser = require('csv-parser');
 const { PassThrough } = require('stream');                       // ⬅️ CHANGED: bring in PassThrough
 // const fs = require('fs');                                      // no longer needed
@@ -63,11 +63,43 @@ exports.uploadClassesCSV = (req, res) => {
     });
 };
 
-exports.getCSVData = (req, res) => {
+exports.getCSVData = async (req, res) => {
   if (csvDataStore.length === 0) {
     return res.status(404).json({ error: 'No schedule data available. Please upload a CSV file first.' });
   }
-  res.status(200).json({ data: csvDataStore });
+
+  try {
+    // 1. Fetch all availability data from MySQL
+    const [availabilityRows] = await pool.promise().query(
+      `SELECT user_id, start_time, end_time FROM availabilities`
+    );
+
+    // 2. Group availability times by user_id
+    const availabilityMap = {};
+    for (const row of availabilityRows) {
+      const key = row.user_id;
+      const timeRange = `${row.start_time}–${row.end_time}`;
+      if (!availabilityMap[key]) availabilityMap[key] = [];
+      availabilityMap[key].push(timeRange);
+    }
+
+    // 3. Merge into csvDataStore
+    const mergedData = csvDataStore.map(row => {
+      const rawName = row['Caregiver Name'] || '';
+      const userId = rawName.split(' ')[0]; // assumes first word of name matches user_id in DB
+
+      return {
+        ...row,
+        Availability: availabilityMap[userId]?.join(', ') || ''
+      };
+    });
+
+    res.status(200).json({ data: mergedData });
+
+  } catch (err) {
+    console.error('Error merging availability data:', err);
+    res.status(500).json({ error: 'Failed to retrieve availability info.' });
+  }
 };
 
 exports.getClassesData = (req, res) => {
