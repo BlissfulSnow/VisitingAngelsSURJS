@@ -60,6 +60,11 @@ function Availability() {
 		setFormData({ ...formData, [name]: value });
 	};
 
+	// Username input validation
+	const isValidUsername = (username) => {
+		const regex = /^[a-z]+\.{1}[a-z]+$/;
+		return regex.test(username);
+	};
 
 	/**
 	 * Handle form submission.
@@ -69,6 +74,12 @@ function Availability() {
 	 */
 	const handleSubmit = async (e) => {
 		e.preventDefault();
+
+		if (!isValidUsername(formData.user_id)) {
+			alert("Invalid caregiver name format. Please use lowercase 'firstname.lastname'.");
+			return;
+		}
+
 		console.log(formData);
 		const baseUrl = process.env.REACT_APP_BASE_URL;
 
