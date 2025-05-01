@@ -60,7 +60,7 @@ function Availability() {
 		setFormData({ ...formData, [name]: value });
 	};
 
-	// Function for username validation
+	// Function for username validation (check for capitalization and format)
 	const validUsername = (username) => {
 		const regex = /^[a-z]+\.{1}[a-z]+$/;
 		return regex.test(username);
