@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import axios from 'axios';
+import React, {useEffect, useState} from 'react';
+// import axios from 'axios';
 import './FirstLogin.css';
 import {useNavigate} from 'react-router-dom'; // Import useNavigate
 import { jwtDecode } from 'jwt-decode';
@@ -12,6 +12,10 @@ const LoginPage = () => {
 	const navigate = useNavigate();
 	const baseUrl = process.env.REACT_APP_BASE_URL;
 
+	useEffect(() => {
+		document.title = "Login | SmartScheduler";
+	}, []);
+
 	const togglePasswordVisibility = () => {
 		setShowPassword(prevState => !prevState);
 	};
@@ -20,17 +24,29 @@ const LoginPage = () => {
 		e.preventDefault();
 	
 		try {
-		  const response = await axios.post(`${baseUrl}/api/auth/login`,{ username, password });
-		  const token = response.data.token;
-		  localStorage.setItem('token', token);
-		  alert('Login successful!');
+		  // const response = await axios.post(`${baseUrl}/api/auth/login`,{ username, password });
+		  // const token = response.data.token;
+		  // localStorage.setItem('token', token);
+		  // alert('Login successful!');
+			const response = await fetch(`${baseUrl}/api/auth/login`,
+				{
+					method: 'POST',
+					headers: {'Content-Type': 'application/json'},
+					body: JSON.stringify({ username, password }),
+				}
+				);
+			console.log(response);
+			const data = await response.json();
+			const token = data.token;
+			localStorage.setItem('token', token);
+			alert('Login successful!');
 	
 		  // decode role from JWT and redirect accordingly
 		  const { role } = jwtDecode(token);
 		  if (role === 'caregiver') {
-			navigate(`/caregiver/profile/${username}`);
+			navigate(`/caregiver/home`);
 		  } else {
-			navigate('/scheduler/find-caregiver');
+			navigate('/scheduler/load-data');
 		  }
 		} catch (err) {
 		  setError('Invalid credentials');

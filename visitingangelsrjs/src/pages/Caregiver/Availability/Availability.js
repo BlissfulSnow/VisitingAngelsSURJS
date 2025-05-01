@@ -22,21 +22,30 @@ function Availability() {
 	});
 	const [error, setError] = useState(null);
 	const navigate = useNavigate();
-
+	const today = new Date();
+	let fullDate = `${today.getFullYear()}-`;
+	let month = today.getMonth() + 1;
+	if (month > 9) {
+		fullDate += `${month}-`;
+	} else {
+		fullDate += `0${month}-`;
+	}
+	let day = today.getDate();
+	if (day > 9) {
+		fullDate += `${day}`;
+	} else {
+		fullDate += `0${day}`;
+	}
 
 	useEffect(() => {
 		function fetchUsername() {
 			const token = localStorage.getItem('token');
 			if (!token) return setError('Not logged in');
-			console.log("Before jwt")
-
 			const {username} = jwtDecode(token);
-			console.log("After jwt")
-
 			setFormData(prevData => ({...prevData, user_id: username}));
-			console.log(formData);
 		}
 		fetchUsername();
+		document.title = "Availability | SmartScheduler";
 
 	}, []);
 
@@ -49,9 +58,13 @@ function Availability() {
 	const handleChange = (e) => {
 		const { name, value } = e.target;
 		setFormData({ ...formData, [name]: value });
-		console.log(formData);
 	};
 
+	// Function for username validation
+	const validUsername = (username) => {
+		const regex = /^[a-z]+\.{1}[a-z]+$/;
+		return regex.test(username);
+	};
 
 	/**
 	 * Handle form submission.
@@ -61,6 +74,12 @@ function Availability() {
 	 */
 	const handleSubmit = async (e) => {
 		e.preventDefault();
+
+		if (!validUsername(formData.user_id)) {
+			alert("Invalid caregiver name format. Please use lowercase 'firstname.lastname'.");
+			return;
+		}
+
 		console.log(formData);
 		const baseUrl = process.env.REACT_APP_BASE_URL;
 
@@ -70,9 +89,11 @@ function Availability() {
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify(formData),
 		})
-		console.log(response);
-		navigate('/caregiver/home');
-
+		if (!response.ok) {
+			alert("Failed to submit. Please try again.");
+		} else {
+			navigate('/caregiver/home');
+		}
 
 	};
 
@@ -101,6 +122,7 @@ function Availability() {
 					<input
 						type="date"
 						name="date"
+						min={fullDate}
 						value={formData.date}
 						onChange={handleChange}
 					/>

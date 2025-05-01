@@ -1,6 +1,6 @@
 // src/pages/Caregiver/Profile/Profile.js
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import { jwtDecode } from 'jwt-decode';    // corrected import
 import './Profile.css';
 
@@ -29,7 +29,9 @@ function Profile() {
 		  	console.log(data);
 		  	setProfile(data);
 	  }
-	  fetchProfile()
+	  fetchProfile();
+	  document.title = "Profile | SmartScheduler";
+
 
   }, []);
 

@@ -10,7 +10,7 @@
  *
  * @returns {JSX.Element} - A styled file upload interface.
  */
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 import './LoadData.css';
 
@@ -23,6 +23,11 @@ function LoadData() {
 	const [csvType, setCsvType] = useState('schedule');
 
 	const baseUrl = process.env.REACT_APP_BASE_URL;
+
+	useEffect(() => {
+		document.title = "Load Data | SmartScheduler";
+
+	}, []);
 
 	/**
 	 * Handles the file upload process.
@@ -50,6 +55,11 @@ function LoadData() {
 					'Content-Type': 'multipart/form-data',
 				},
 			});
+			// await fetch(endpoint, {
+			// 	method: 'POST',
+			// 	headers: {'Content-Type': 'multipart/form-data'},
+			// 	body: JSON.stringify(formData)
+			// })
 			setUploadStatus('File uploaded and processed successfully!');
 		} catch (error) {
 			setUploadStatus('Error uploading file.');

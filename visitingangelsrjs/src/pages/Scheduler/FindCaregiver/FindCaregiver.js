@@ -9,7 +9,7 @@
      * 
      * @returns {JSX.Element} - A fully functional caregiver search interface.
 */
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import './FindCaregiver.css';
 import DateCarousel from './components/DateCarousel';
 import CaregiverDataDate from './components/CaregiverDataDate';
@@ -32,12 +32,18 @@ function FindCaregiver() {
     const [activeFilters, setActiveFilters] = useState([]);
     const finalFilteredCaregivers = filterCaregiverClasses(fullFilterClasses, filteredCaregiversDate, activeFilters);
 
+	useEffect(() => {
+		document.title = "Find Caregivers | SmartScheduler";
+
+	}, []);
+
     const handleCheckboxChange = (filter, isChecked) => {
         const updatedFilters = isChecked
           ? [...activeFilters, filter]
           : activeFilters.filter((f) => f !== filter);
         setActiveFilters(updatedFilters);
     };
+
 
     return (
         <div className="find-caregiver-container">

@@ -8,11 +8,11 @@
      * The form supports dynamic state updates and handles form submission.
 */
 
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import './Availability.css';
+import {useNavigate} from "react-router-dom";
 
 function Availability() {
-	const baseUrl = process.env.REACT_APP_BASE_URL;
 	// State to store form data
 	const [formData, setFormData] = useState({
 		user_id: '',
@@ -21,6 +21,26 @@ function Availability() {
 		end_time: ''
 	});
 	const [action, setAction] = useState('Add');
+	const navigate = useNavigate();
+	const today = new Date();
+	let fullDate = `${today.getFullYear()}-`;
+	let month = today.getMonth() + 1;
+	if (month > 9) {
+		fullDate += `${month}-`;
+	} else {
+		fullDate += `0${month}-`;
+	}
+	let day = today.getDate();
+	if (day > 9) {
+		fullDate += `${day}`;
+	} else {
+		fullDate += `0${day}`;
+	}
+
+	useEffect(() => {
+		document.title = "Availability | SmartScheduler";
+
+	}, []);
 	
 	/**
 		 * Handle input changes in the form fields.
@@ -37,7 +57,6 @@ function Availability() {
 		setAction(e.target);
 	}
 
-
 	/**
 		 * Handle form submission.
 		 * Logs the current form data to the console.
@@ -46,24 +65,25 @@ function Availability() {
 	 */
 	const handleSubmit = async (e) => {
 		e.preventDefault();
+		const baseUrl = process.env.REACT_APP_BASE_URL;
 		console.log(formData);
-		const response = await fetch(`${baseUrl}/api/db/new-availability`, {
-			method: 'POST',
-			headers: {'Content-Type': 'application/json'},
-			body: JSON.stringify(formData),
-		})
-		if (!response.ok) {
-			throw new Error('Failed to input availability');
-		}
-		else {
-			alert("Submission successful!")
-			setFormData({
-				user_id: '',
-				date: '',
-				start_time: '',
-				end_time: ''
+		if (action === "Add") {
+			const response = await fetch(`${baseUrl}/api/db/new-availability`, {
+				method: 'POST',
+				headers: {'Content-Type': 'application/json'},
+				body: JSON.stringify(formData),
 			})
+			if (!response.ok) {
+				alert("Failed to submit. Please try again.");
+
+			} else {
+				navigate('/scheduler/find-caregiver');
+			}
 		}
+		else if (action === "Delete") {
+			console.log("To be deleted");
+		}
+
 	};
 
 	return (
@@ -91,6 +111,7 @@ function Availability() {
 					<input
 						type="date"
 						name="date"
+						min={fullDate}
 						value={formData.date}
 						onChange={handleFormChange}
 					/>
