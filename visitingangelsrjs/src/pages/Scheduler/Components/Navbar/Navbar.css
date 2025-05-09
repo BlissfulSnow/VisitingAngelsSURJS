@@ -2,9 +2,10 @@
 
 .navbar {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem 5rem;
+	padding: 1rem 2rem;
 	background-color: #33adbb;
 	color: #fff;
 }
@@ -39,5 +40,12 @@ img {
 
 .navbar-links a:hover {
 	color: #ddd;
+}
+
+.navbar-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1 rem;
+	justify-content: center;
 }
   
