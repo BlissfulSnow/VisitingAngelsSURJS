@@ -8,7 +8,6 @@
     "deploy:docs": "npm run build:frontend && npm run copy:to-docs"
   },
   "devDependencies": {
-    "cpx": "^1.5.0",
-    "rimraf": "^6.0.1"
+    "cpx": "^1.5.0"
   }
 }
